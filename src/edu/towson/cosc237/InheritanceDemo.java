@@ -84,6 +84,8 @@ public class InheritanceDemo {
             System.out.println("The 2 boxes don't have the same dimensions");
         }
         
+        //We can use a Box object and put it into a reference to the Rectangle class
+        //How does this happen? What are the advantages? 
         r1 = new Box();
         r1.print();
     }
